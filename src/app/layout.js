@@ -8,7 +8,9 @@ function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
-        <footer>Page rendered on {timestamp}</footer>
+        <footer>Page rendered on {timestamp}<br></br>
+          Copyright Whale & Raccoon Inc. 2024
+        </footer>
       </body>
     </html>
   );
